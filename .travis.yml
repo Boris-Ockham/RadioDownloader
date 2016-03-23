@@ -1,0 +1,6 @@
+language: csharp
+sudo: false
+
+script:
+  - xbuild /p:Configuration=Release /p:Platform=mono "Radio Downloader.sln"
+
